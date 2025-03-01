@@ -6,8 +6,8 @@ const AnimationLottie = ({
   animationPath,
   width = "95%",
 }: {
-  animationPath: LottieOptions;
-  width: string;
+  animationPath: unknown;
+  width?: string;
 }) => {
   const defaultOptions = {
     loop: true,
